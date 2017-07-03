@@ -1,19 +1,6 @@
-
-<h2 id='obj'>Hello GitHub<h2>	
-	
-	function Person(name, age) {
-	  var _name = name
-	  this.age = age
-	  this.setName = function(name) {
-	    _name = name
-	  }
-	  this.getName = function() {
-	    return _name
-	  }
-	}
-	var p1 = new Person("zhangsan", 21)
-	console.log(p1)
-	
+<span id='obj'>Hello GitHub</span>
+		[This的用法](#this)</br>
+		当普通函数不是任何对象的属性时，其中的`this`指向`window`。</br>
 [返回顶部](#obj) 
 	
 
