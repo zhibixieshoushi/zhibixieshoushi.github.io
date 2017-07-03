@@ -1,7 +1,5 @@
 
-<h2 id='obj'>Hello GitHub<h2>
-* [定义私有属性](#obj)
-	*	
+<h2 id='obj'>Hello GitHub<h2>	
 
 
 # 面向对象	
