@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Microsoft YaHei";
+}
+.biaoti{
+    height: 80px;
+    width: 1192px;
+    margin: 0 auto;
+}
+.biaoti img{
+    margin-top: 21px;
+    float: left;
+}
+.chengdu{
+    height: 17px;
+    width: 50px;
+    float: left;
+    margin: 32px 0 0 20px;
+}
+.biaoti .chengdu span{
+    color: #333333;
+    font-size: 17px;
+}
+.biaoti .chengdu img{
+    margin: 7px 0 0 0;
+    float: right;
+}
+.biaoti .chengdu:hover img{
+    transform: rotate(180deg);
+}
+.biaoti1{
+    height: 80px;
+    width: 320px;
+    margin-left: 44px;
+    float: left;
+}
+.biaoti1 ul li{
+    list-style: none;
+    float: left;
+    padding: 30px 23px;
+    font-size: 17px;
+}
+.biaoti1 ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+.biaoti1 ul li:hover{
+    background-color: #ef4238;
+}
+.biaoti1 ul li:hover a{
+    color: #ffffff;
+}
+.biaoti .tou{
+     height: 38px;
+     width: 258px;
+     float: right;
+    border: 1px solid#cccccc;
+    border-radius: 50px;
+    background-color: #faf8fa;
+    margin-top: 20px;
+ }
+.biaoti .tou span{
+    line-height: 38px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #9b9a9b;
+}
+.biaoti .tou img{
+    float: right;
+    height: 39px;
+    margin: 0;
+}
+.biaoti .chaxuen{
+     height: 42px;
+     width: 60px;
+     float: right;
+    margin: 20px 0 0 20px;
+ }
+.biaoti .chaxuen .i2{
+    height: 42px;
+    float: left;
+    margin: 0;
+}
+.biaoti .chaxuen .i1{
+    float: right;
+    margin-top: 20px;
+}
+.biaoti .chaxuen:hover .i1{
+    transform: rotate(180deg);
+}
+.pingdao{
+    height: 60px;
+    background-color: #47464a;
+    border-top: 1px solid #d8d8d8;
+    margin-bottom: 73px;
+}
+.pingdao .ping{
+    background-color: #47464a;
+    height: 60px;
+    width: 796px;
+    margin: 0 auto;
+    position: relative;
+}
+.pingdao .ping ul li{
+    list-style: none;
+    float: left;
+    line-height: 60px;
+    padding:0 39px;
+
+}
+.pingdao .ping ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+.pingdao .ping li:hover a{
+    color: #ef4238;
+}
+.pingdao .ping div{
+    height: 18px;
+    width: 18px;
+    transform: rotate(135deg);
+    background-color: #ffffff;
+}
+.pingdao .ping .d1{
+    position: absolute;
+    top: 53px;
+    left: 70px;
+    display: none;
+}
+.pingdao .ping .d2{
+    position: absolute;
+    top: 53px;
+    left: 230px;
+    display: none;
+}
+.pingdao .ping .d3{
+    position: absolute;
+    top: 53px;
+    left: 390px;
+    display: none;
+}
+.pingdao .ping .d4{
+    position: absolute;
+    top: 53px;
+    left: 550px;
+    display: none;
+}
+.pingdao .ping .d5{
+    position: absolute;
+    top: 53px;
+    left: 700px;
+    display: none;
+}
+.pingdao .ping ul .l1:hover .d1{
+    display: block;
+}
+.pingdao .ping ul .l2:hover .d2{
+    display: block;
+}
+.pingdao .ping ul .l3:hover .d3{
+    display: block;
+}
+.pingdao .ping ul .l4:hover .d4{
+    display: block;
+}
+.pingdao .ping ul .l5:hover .d5{
+    display: block;
+}
+.zi{
+    height: 35px;
+    width: 754px;
+    margin: 0 auto;
+}
+.zi p{
+    font-size: 12px;
+    text-align: center;
+    color: #9f9f9f;
+}
+.zi .p1{
+    margin-bottom: 4px;
+}
+.zi p span{
+    color: #ffb63f;
+}
+.shida{
+    height: 2501px;
+    width: 951px;
+    margin: 42px auto;
+}
+/*-------------shida-----------------*/
+.diyi{
+    height: 221px;
+    width: 951px;
+    margin-bottom: 30px;
+}
+.shida .diyi .i3{
+    float: left;
+    margin-top: 86px;
+}
+.shida .diyi .i4{
+    height: 50px;
+    width: 50px;
+    background-color: #ffb400;
+    float: left;
+    margin-top: 86px;
+    font-size: 14px;
+    font-style: oblique ;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+.shida .diyi .i5{
+    height: 50px;
+    width: 50px;
+    background-color: #f7f7f7;
+    float: left;
+    margin-top: 86px;
+    font-size: 14px;
+    font-style: oblique ;
+    line-height: 50px;
+    text-align: center;
+    color: #aa9e99;
+    font-weight: bold;
+}
+.shida .diyi .b1{
+    float: left;
+    margin-left: 30px;
+}
+.shida .diyi .diyi1{
+    height: 221px;
+    width: 681px;
+    border-bottom: 1px solid #e5e5e5;
+    float: right;
+    position: relative;
+}
+.shida .diyi .zi1{
+    font-size: 25px;
+    margin-top: 68px;
+    color: #333333;
+}
+.shida .diyi .zi2{
+    font-size: 16px;
+    margin-top: 13px;
+}
+.shida .diyi .zi3{
+    font-size: 16px;
+    margin-top: 9px;
+    color: #999999;
+}
+.shida .b2{
+    height: 60px;
+    width: 60px;
+    float: right;
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+.shida .diyi .b2 p{
+    font-size: 46px;
+    font-style: oblique ;
+    font-weight: bold;
+    color: #ffb400;
+}
+.shida .diyi .b2 span{
+    font-size: 19px;
+    color: #ffb400;
+}
+/*-----dibu-----*/
+.dibu{
+    height: 92px;
+    margin-top: 50px;
+    background-color: #262426;
+    padding-top: 60px;
+}
+.dibu .dibu1{
+    height: 37px;
+    width: 916px;
+    margin: 0 auto;
+    background-color: #262426;
+}
+.dibu .dibu1 p{
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+.maomao{
+    position: fixed;
+    right: 0px;
+    bottom: 190px;
+}
